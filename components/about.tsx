@@ -5,7 +5,7 @@ const About = () => {
   return (
     <React.Fragment>
       <h2 className="pb-1">À propos</h2>
-      <p className="pb-2">
+      <p className="pb-2 text-justify">
         Je suis un développeur full stack, pour une entreprise parisienne
         spécialisée dans la BI et l&apos;EPM. Mon rôle est de développer des
         outils (<strong>interfaces webs, APIs REST, bases de données</strong>)
@@ -15,7 +15,7 @@ const About = () => {
         <strong>Rust</strong>, le second étant principalement sur des projets
         personels.
       </p>
-      <p className="pb-2">
+      <p className="pb-2 text-justify">
         Ce blog est fait avec&#x205F;
         <Link href="https://nextjs.org/" target="_blank">
           Next.js
