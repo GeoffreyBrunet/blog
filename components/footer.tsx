@@ -1,7 +1,7 @@
 const footer = () => {
   return (
-    <footer className="fixed bottom-0 left-0 w-full border-t bg-gray-100 p-4 text-xs">
-      <div className="flex items-center justify-between text-gray-500">
+    <footer className="border-t bg-gray-100 p-4 text-xs">
+      <div className="mx-auto flex w-full max-w-xl flex-wrap items-center justify-between gap-2 text-gray-500">
         <p>© 2024 Geoffrey Brunet</p>
         <p>Made with love by me.</p>
       </div>
