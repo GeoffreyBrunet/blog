@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export const Header = () => {
+const Header = () => {
   return (
     <header className="mx-auto max-w-xl px-4 pt-4 text-sm">
       <div className="flex items-center justify-between text-gray-500">
@@ -11,7 +11,7 @@ export const Header = () => {
             alt="Logo"
             width="0"
             height="0"
-            className="h-10 w-10"
+            className="color:gray-500 h-10 w-10"
             priority={false}
           />
         </Link>
@@ -23,7 +23,7 @@ export const Header = () => {
           </li>
           <li>
             <Link href="/contact" className="underline hover:text-black">
-              Contact
+              Me contacter
             </Link>
           </li>
         </ul>
