@@ -28,7 +28,7 @@ const About = () => {
         <Link
           href="https://github.com/GeoffreyBrunet/geoffreybrunet.github.io"
           target="_blank"
-          className="text-gray-500 underline hover:text-black"
+          className="text-gray-700 underline hover:text-black"
         >
           repository
         </Link>

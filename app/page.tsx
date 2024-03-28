@@ -2,6 +2,7 @@ import React from "react";
 import RecentPosts from "@/components/recent-posts";
 import Projects from "@/components/projects";
 import About from "@/components/about";
+import Resumes from "@/components/resumes";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <RecentPosts />
       <Projects />
       <About />
+      <Resumes />
     </React.Fragment>
   );
 }

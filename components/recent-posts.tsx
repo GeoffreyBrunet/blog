@@ -1,11 +1,20 @@
-import React from "react";
+import Link from "next/link";
 
 const RecentPosts = () => {
   return (
-    <React.Fragment>
+    <div className="pb-2">
       <h2 className="pb-2">Posts récents</h2>
-      <p className="pb-2">Voici une liste de blog posts sur la page.</p>
-    </React.Fragment>
+      <ul className="text-sm text-gray-700">
+        <li>
+          <Link
+            href="/node-queues"
+            className="hover:text-black hover:underline"
+          >
+            La gestion des files d&apos;attente avec Node.js
+          </Link>
+        </li>
+      </ul>
+    </div>
   );
 };
 
