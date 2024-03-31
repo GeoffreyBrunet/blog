@@ -4,7 +4,7 @@ import Link from "next/link";
 const About = () => {
   return (
     <React.Fragment>
-      <h2 className="pb-2">À propos</h2>
+      <h2 className="pb-2">Qui je suis</h2>
       <p className="pb-2 text-justify">
         Je suis un développeur full stack, pour une entreprise parisienne
         spécialisée dans la BI et l&apos;EPM. Mon rôle est de développer des

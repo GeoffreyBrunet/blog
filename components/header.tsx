@@ -11,7 +11,7 @@ const Header = () => {
             alt="Logo"
             width="0"
             height="0"
-            className="color:gray-500 h-10 w-10"
+            className="h-10 w-10"
             priority={false}
           />
         </Link>
