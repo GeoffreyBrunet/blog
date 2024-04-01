@@ -1,6 +1,6 @@
 import React from "react";
 import { posts } from "@/lib/posts";
-import PrintPosts from "./print-posts";
+import PrintPosts from "@/lib/print-posts";
 
 const RecentPosts: React.FC = () => {
   const lastFivePosts = posts.slice(-5);

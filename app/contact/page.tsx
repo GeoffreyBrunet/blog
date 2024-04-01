@@ -1,6 +1,6 @@
 import React from "react";
-import ContactLinks from "@/components/contact-links";
-import EmailForm from "@/components/email-form";
+import ContactLinks from "@/components/contact/contact-links";
+import EmailForm from "@/components/contact/email-form";
 
 const Contact: React.FC = () => {
   return (

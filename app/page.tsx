@@ -1,8 +1,8 @@
 import React from "react";
-import RecentPosts from "@/components/recent-posts";
-import Projects from "@/components/projects";
-import About from "@/components/about";
-import Resumes from "@/components/resumes";
+import RecentPosts from "@/components/home/recent-posts";
+import Projects from "@/components/home/projects";
+import About from "@/components/home/about";
+import Resumes from "@/components/home/resumes";
 
 export default function Home() {
   return (

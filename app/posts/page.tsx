@@ -1,5 +1,5 @@
 import React from "react";
-import AllPosts from "@/components/all-posts";
+import AllPosts from "@/components/posts/all-posts";
 
 const Posts: React.FC = () => {
   return (
