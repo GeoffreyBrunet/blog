@@ -30,6 +30,7 @@ const EmailForm: FC = () => {
           <Input
             type="text"
             placeholder="Nom prénom"
+            id="name"
             className="w-full rounded-md border border-gray-300 bg-white px-6 py-3 text-gray-700 outline-none focus:shadow-md"
             {...register("name", { required: true })}
           />
@@ -41,6 +42,7 @@ const EmailForm: FC = () => {
           <Input
             type="email"
             placeholder="exemple@domain.com"
+            id="email"
             className="w-full rounded-md border border-gray-300 bg-white px-6 py-3 text-gray-700 outline-none focus:shadow-md"
             {...register("email", { required: true })}
           />
@@ -52,6 +54,7 @@ const EmailForm: FC = () => {
           <Textarea
             rows={4}
             placeholder="Tapez votre message ici"
+            id="message"
             className="w-full rounded-md border border-gray-300 bg-white px-6 py-3 text-gray-700 outline-none focus:shadow-md"
             {...register("message", { required: true })}
           ></Textarea>
