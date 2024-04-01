@@ -2,7 +2,7 @@ import React from "react";
 import ContactLinks from "@/components/contact-links";
 import EmailForm from "@/components/email-form";
 
-const Contact = () => {
+const Contact: React.FC = () => {
   return (
     <React.Fragment>
       <h1 className="pb-4">Contact</h1>

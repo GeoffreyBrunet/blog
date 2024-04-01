@@ -1,10 +1,11 @@
 import React from "react";
+import AllPosts from "@/components/all-posts";
 
-const Posts = () => {
+const Posts: React.FC = () => {
   return (
     <React.Fragment>
       <h1 className="pb-4">Articles</h1>
-      <p>Ça arrive...</p>
+      <AllPosts />
     </React.Fragment>
   );
 };

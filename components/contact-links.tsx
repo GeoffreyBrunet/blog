@@ -9,7 +9,7 @@ const ContactLinks = () => {
   return (
     <React.Fragment>
       <h2 className="pb-2">Mes liens</h2>
-      <ul className="mr-2 flex justify-center pb-2">
+      <ul className="mr-2 flex justify-start pb-2">
         <li>
           <Link
             href="https://twitter.com/geoffreybrunet5"

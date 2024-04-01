@@ -1,19 +1,14 @@
-import Link from "next/link";
+import React from "react";
+import { posts } from "@/lib/posts";
+import PrintPosts from "./print-posts";
 
-const RecentPosts = () => {
+const RecentPosts: React.FC = () => {
+  const lastFivePosts = posts.slice(-5);
+
   return (
     <div className="pb-2">
       <h2 className="pb-2">Posts récents</h2>
-      <ul className="text-sm text-gray-700">
-        <li>
-          <Link
-            href="/node-queues"
-            className="hover:text-black hover:underline"
-          >
-            La gestion des files d&apos;attente avec Node.js
-          </Link>
-        </li>
-      </ul>
+      <PrintPosts posts={lastFivePosts} />
     </div>
   );
 };
