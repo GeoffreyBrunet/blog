@@ -33,6 +33,7 @@ const EmailForm: FC = () => {
             id="name"
             className="w-full rounded-md border border-gray-300 bg-white px-6 py-3 text-gray-700 outline-none focus:shadow-md"
             {...register("name", { required: true })}
+            autoComplete="name"
           />
         </div>
         <div className="mb-5">
@@ -45,6 +46,7 @@ const EmailForm: FC = () => {
             id="email"
             className="w-full rounded-md border border-gray-300 bg-white px-6 py-3 text-gray-700 outline-none focus:shadow-md"
             {...register("email", { required: true })}
+            autoComplete="email"
           />
         </div>
         <div className="mb-5">
@@ -57,6 +59,7 @@ const EmailForm: FC = () => {
             id="message"
             className="w-full rounded-md border border-gray-300 bg-white px-6 py-3 text-gray-700 outline-none focus:shadow-md"
             {...register("message", { required: true })}
+            autoComplete="message"
           ></Textarea>
         </div>
         <div>
