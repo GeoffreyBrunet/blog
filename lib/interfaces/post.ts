@@ -1,5 +1,10 @@
-export interface Post {
-  date: string;
+export interface PostItemProps {
+  slug: string;
   title: string;
-  url: string;
+  description?: string;
+  date: string;
+}
+
+export interface PostPropsList {
+  posts: Array<PostItemProps>;
 }
