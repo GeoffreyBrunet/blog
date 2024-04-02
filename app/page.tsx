@@ -7,7 +7,7 @@ import Resumes from "@/components/home/resumes";
 export default function Home() {
   return (
     <React.Fragment>
-      <h1 className="pb-4">Welcome home</h1>
+      <h1 className="pb-4">Home</h1>
       <RecentPosts />
       <Projects />
       <About />
