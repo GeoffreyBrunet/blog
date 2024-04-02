@@ -24,7 +24,7 @@ const EmailForm: FC = () => {
       <h2 className="mb-4">Me contacter par email</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="mb-4">
-          <label htmlFor="name" className="mb-3 block">
+          <label htmlFor="name" className="mb-3 block text-sm">
             Nom complet
           </label>
           <Input
@@ -37,7 +37,7 @@ const EmailForm: FC = () => {
           />
         </div>
         <div className="mb-5">
-          <label htmlFor="email" className="text-s mb-3 block">
+          <label htmlFor="email" className="mb-3 block text-sm">
             Adresse Email
           </label>
           <Input
@@ -50,7 +50,7 @@ const EmailForm: FC = () => {
           />
         </div>
         <div className="mb-5">
-          <label htmlFor="message" className="text-s mb-3 block">
+          <label htmlFor="message" className="mb-3 block text-sm">
             Message
           </label>
           <Textarea
