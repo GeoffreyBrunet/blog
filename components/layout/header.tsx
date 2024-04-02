@@ -17,8 +17,8 @@ const Header = () => {
         </Link>
         <ul className="flex items-center gap-2">
           <li>
-            <Link href="/posts" className="underline hover:text-black">
-              Posts
+            <Link href="/blog" className="underline hover:text-black">
+              Blog
             </Link>
           </li>
           <li>
