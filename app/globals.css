@@ -88,7 +88,14 @@
     @apply text-lg;
   }
   p {
-    @apply text-sm;
     font-family: system-ui;
+    @apply text-sm;
+  }
+  code {
+    font-family: system-ui;
+    @apply text-sm;
+    @apply bg-gray-200;
+    @apply rounded-md;
+    @apply border border-gray-300;
   }
 }

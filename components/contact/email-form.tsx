@@ -2,7 +2,7 @@
 
 import React, { FC } from "react";
 import { useForm } from "react-hook-form";
-import { sendEmail } from "@/lib/send-email";
+import { sendEmail } from "@/lib/email/send-email";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
