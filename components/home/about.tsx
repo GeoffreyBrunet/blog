@@ -19,8 +19,7 @@ const About = () => {
         connaissances et mes expériences. Ce blog est un moyen pour moi de
         partager mes expériences, mes découvertes et mes réflexions. Mes sujets
         de prédilection sont <strong>l&apos;intelligence artificielle</strong>{" "}
-        et
-        <strong>l&apos;ingénierie logicielle</strong>.
+        et <strong>l&apos;ingénierie logicielle</strong>.
       </p>
       <p className="pb-2 text-justify">
         Ce blog est fait avec&#x205F;
@@ -35,7 +34,7 @@ const About = () => {
         <Link
           href="https://github.com/GeoffreyBrunet/geoffreybrunet.github.io"
           target="_blank"
-          className="text-gray-700 underline hover:text-black"
+          className="text-black underline hover:text-gray-600"
         >
           repository
         </Link>

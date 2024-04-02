@@ -8,8 +8,8 @@ import { FaGithub } from "react-icons/fa";
 const ContactLinks = () => {
   return (
     <React.Fragment>
-      <h2 className="pb-2">Mes liens</h2>
-      <ul className="mr-2 flex justify-start pb-2">
+      <h2 className="pb-4">Mes liens</h2>
+      <ul className="mr-2 flex list-none justify-start pb-2">
         <li>
           <Link
             href="https://twitter.com/geoffreybrunet5"

@@ -37,3 +37,44 @@
 .subheading-anchor {
   @apply no-underline hover:underline;
 }
+
+h1,
+h2 {
+  @apply pb-2;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  @apply pb-1;
+}
+
+li,
+span {
+  @apply text-sm;
+}
+
+code {
+  font-family: monospace;
+  @apply text-sm font-medium;
+}
+
+ul {
+  @apply pb-2;
+  @apply list-disc pl-4;
+}
+
+p {
+  @apply pb-2;
+}
+
+figure {
+  @apply mb-2;
+  @apply rounded-lg border border-solid;
+  @apply hover:shadow;
+}
+
+pre {
+  @apply p-1;
+}

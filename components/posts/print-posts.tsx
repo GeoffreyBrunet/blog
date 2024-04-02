@@ -6,7 +6,7 @@ const PrintPost = ({ posts }: PostPropsList) => {
   return (
     <React.Fragment>
       {posts?.length > 0 ? (
-        <ul className="flex flex-col">
+        <ul className="flex list-none flex-col">
           {posts.map((post) => {
             const { slug, date, title } = post;
             return (

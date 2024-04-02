@@ -15,7 +15,7 @@ const Header = () => {
             priority={false}
           />
         </Link>
-        <ul className="flex items-center gap-2">
+        <ul className="flex list-none items-center gap-2">
           <li>
             <Link href="/blog" className="underline hover:text-black">
               Blog

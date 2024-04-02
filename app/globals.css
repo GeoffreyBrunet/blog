@@ -85,7 +85,10 @@
     @apply text-2xl;
   }
   h2 {
-    @apply text-lg;
+    @apply gap-1 text-lg;
+  }
+  h3 {
+    @apply gap-1 text-base;
   }
   p {
     font-family: system-ui;

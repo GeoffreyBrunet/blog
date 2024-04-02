@@ -21,9 +21,9 @@ const EmailForm: FC = () => {
   }
   return (
     <React.Fragment>
-      <h2 className="mb-4">Me contacter par email</h2>
+      <h2 className="pb-2">Me contacter par email</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <div className="mb-4">
+        <div className="pb-2">
           <label htmlFor="name" className="mb-3 block text-sm">
             Nom complet
           </label>
@@ -36,7 +36,7 @@ const EmailForm: FC = () => {
             autoComplete="name"
           />
         </div>
-        <div className="mb-5">
+        <div className="pb-2">
           <label htmlFor="email" className="mb-3 block text-sm">
             Adresse Email
           </label>
@@ -49,7 +49,7 @@ const EmailForm: FC = () => {
             autoComplete="email"
           />
         </div>
-        <div className="mb-5">
+        <div className="pb-2">
           <label htmlFor="message" className="mb-3 block text-sm">
             Message
           </label>
