@@ -1,11 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
 
-const About = () => {
+const About: React.FC = () => {
   return (
     <React.Fragment>
-      <h2 className="pb-2">Qui je suis</h2>
-      <p className="pb-2 text-justify">
+      <h2 className={cn("pb-2")}>Qui je suis</h2>
+      <p className={cn("pb-2 text-justify")}>
         Je suis software engineer, pour une entreprise parisienne spécialisée
         dans la BI et l&apos;EPM. Mon rôle est de développer des outils (
         <strong>interfaces webs, APIs REST, bases de données</strong>) utilisés
@@ -14,14 +15,14 @@ const About = () => {
         Je code principalement en <strong>Python</strong> et en
         <strong>TypeScript</strong>.
       </p>
-      <p className="pb-2 text-justify">
+      <p className={cn("pb-2 text-justify")}>
         Passioné de sciences et de programmation, j&apos;aime partager mes
         connaissances et mes expériences. Ce blog est un moyen pour moi de
         partager mes expériences, mes découvertes et mes réflexions. Mes sujets
         de prédilection sont <strong>l&apos;intelligence artificielle</strong>{" "}
         et <strong>l&apos;ingénierie logicielle</strong>.
       </p>
-      <p className="pb-2 text-justify">
+      <p className={cn("pb-2 text-justify")}>
         Ce blog est fait avec&#x205F;
         <Link href="https://nextjs.org/" target="_blank">
           Next.js
@@ -32,15 +33,15 @@ const About = () => {
         <strong>open-source</strong>. Le code source est disponible sur Github
         dans ce&#x205F;
         <Link
-          href="https://github.com/GeoffreyBrunet/geoffreybrunet.github.io"
+          href="https://github.com/GeoffreyBrunet/blog"
           target="_blank"
-          className="text-black underline hover:text-gray-600"
+          className={cn("text-black underline hover:text-gray-600")}
         >
           repository
         </Link>
         .
       </p>
-      <p className="pb-2 text-justify">
+      <p className={cn("pb-2 text-justify")}>
         <i>
           &quot;Essayer d&apos;être heureux, c&apos;est essayer de construire
           une machine sans autre spécification que celle de fonctionner sans

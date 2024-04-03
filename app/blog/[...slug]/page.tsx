@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import "@/styles/mdx.css";
 import { Metadata } from "next";
 import { siteConfig } from "@/config/site";
+import { cn } from "@/lib/utils";
 
 interface PostPageProps {
   params: {
@@ -71,8 +72,10 @@ export default async function PostPage({ params }: PostPageProps) {
   }
 
   return (
-    <article className="prose dark:prose-invert container mx-auto max-w-3xl py-6">
-      <h1 className="mb-2">{post.title}</h1>
+    <article
+      className={cn("prose dark:prose-invert container mx-auto max-w-3xl py-6")}
+    >
+      <h1 className={cn("mb-2")}>{post.title}</h1>
       <MDXContent code={post.body} />
     </article>
   );
