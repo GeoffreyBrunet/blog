@@ -1,8 +1,14 @@
 import { cn } from "@/lib/utils";
+import React from "react";
 
-const footer: React.FC = () => {
+const Footer: React.FC = () => {
   return (
-    <footer className={cn("border-t bg-gray-100 p-4 text-xs")}>
+    <footer
+      className={cn(
+        "border-t bg-gray-100 p-4 text-xs",
+        "absolute bottom-0 w-full",
+      )}
+    >
       <div
         className={cn(
           "mx-auto flex w-full max-w-xl flex-wrap items-center justify-between gap-2 text-gray-500",
@@ -15,4 +21,4 @@ const footer: React.FC = () => {
   );
 };
 
-export default footer;
+export default Footer;
