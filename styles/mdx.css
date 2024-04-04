@@ -61,8 +61,7 @@ code {
 }
 
 ul {
-  @apply pb-2;
-  @apply list-disc pl-4;
+  @apply list-disc pb-2 pl-4;
 }
 
 p {
@@ -70,9 +69,7 @@ p {
 }
 
 figure {
-  @apply mb-2;
-  @apply rounded-lg border border-solid;
-  @apply hover:shadow;
+  @apply mb-2 border-b border-t;
 }
 
 pre {

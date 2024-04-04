@@ -6,8 +6,8 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
-  title: "Blog",
-  description: "Blog de Geoffrey Brunet",
+  title: "Site de Geoffrey",
+  description: "Portfolio et blog de Geoffrey",
 };
 
 export default function RootLayout({
