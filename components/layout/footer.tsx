@@ -3,12 +3,7 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer
-      className={cn(
-        "border-t bg-gray-100 p-4 text-xs",
-        "absolute bottom-0 w-full",
-      )}
-    >
+    <footer className={cn("mt-auto w-full border-t bg-gray-100 p-4 text-xs")}>
       <div
         className={cn(
           "mx-auto flex w-full max-w-xl flex-wrap items-center justify-between gap-2 text-gray-500",
