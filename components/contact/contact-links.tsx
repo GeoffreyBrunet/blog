@@ -9,13 +9,15 @@ import { cn } from "@/lib/utils";
 const ContactLinks = () => {
   return (
     <React.Fragment>
-      <h2 className={cn("pb-4")}>Mes liens</h2>
-      <ul className={cn("mr-2 flex list-none justify-start pb-2")}>
+      <h2 className={cn("pb-2")}>Mes liens</h2>
+      <ul className={cn("mr-2 flex list-none justify-start pb-4")}>
         <li>
           <Link
             href="https://twitter.com/geoffreybrunet5"
             target="_blank"
-            className={cn(`${buttonVariants({ variant: "outline" })} mr-4`)}
+            className={cn(
+              `${buttonVariants({ variant: "outline" })} mr-4 mt-2`,
+            )}
           >
             <FaXTwitter className={cn("mr-2")} />
             Twitter / X
@@ -23,7 +25,9 @@ const ContactLinks = () => {
           <Link
             href="https://www.linkedin.com/in/geoffrey-brunet-558315ba/"
             target="_blank"
-            className={cn(`${buttonVariants({ variant: "outline" })} mr-4`)}
+            className={cn(
+              `${buttonVariants({ variant: "outline" })} mr-4 mt-2`,
+            )}
           >
             <FaLinkedinIn className={cn("mr-2")} />
             Linkedin
@@ -31,7 +35,7 @@ const ContactLinks = () => {
           <Link
             href="https://github.com/GeoffreyBrunet"
             target="_blank"
-            className={cn(buttonVariants({ variant: "outline" }))}
+            className={cn(`${buttonVariants({ variant: "outline" })} mt-2`)}
           >
             <FaGithub className={cn("mr-2")} />
             Github
