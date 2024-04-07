@@ -8,7 +8,7 @@ export function PostItem({ slug, title, date }: PostItemProps) {
     <Link
       href={"/" + slug}
       className={cn(
-        "flex items-center gap-1 pt-4 text-sm text-black hover:text-gray-600 hover:underline",
+        "flex items-center gap-1 text-sm text-black hover:text-gray-600 hover:underline",
       )}
     >
       <div>{formatDate(date)}</div>
