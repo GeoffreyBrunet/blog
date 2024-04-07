@@ -57,7 +57,7 @@ span {
 
 code {
   font-family: monospace;
-  @apply text-sm font-medium;
+  @apply text-sm;
 }
 
 ul {

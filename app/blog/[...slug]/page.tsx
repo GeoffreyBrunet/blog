@@ -72,9 +72,7 @@ export default async function PostPage({ params }: PostPageProps) {
   }
 
   return (
-    <article
-      className={cn("prose dark:prose-invert container mx-auto max-w-3xl py-6")}
-    >
+    <article>
       <h1 className={cn("mb-2")}>{post.title}</h1>
       <MDXContent code={post.body} />
     </article>
