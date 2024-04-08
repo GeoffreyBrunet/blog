@@ -11,6 +11,10 @@ function Layout(props: LayoutProps) {
     <div className="page-layout">
       {props.children}
       <style jsx global>{`
+        p,
+        ul {
+          text-align: justify;
+        }
         ul {
           padding-left: 1rem;
         }
